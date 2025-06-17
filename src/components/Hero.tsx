@@ -39,7 +39,7 @@ const Hero = () => {
     // Create a temporary link element to trigger download
     const link = document.createElement('a');
     link.href = '/resume.pdf'; // Assumes resume.pdf is in the public folder
-    link.download = 'YashKapadiya.pdf';
+    link.download = 'OmRakholiya.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -77,7 +77,7 @@ const Hero = () => {
               textShadow: '0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3)'
             }}
           >
-            Hi, I'm Yash Kapadiya
+            Hi, I'm Om Rakholiya
           </h1>
           
           <h2
@@ -122,7 +122,7 @@ const Hero = () => {
 
           <div className="flex justify-center gap-4 sm:gap-6 mt-6 sm:mt-8">
             <a
-              href="https://github.com/yash49766"
+              href="https://github.com/omrakholiya3"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 sm:p-3 rounded-full border border-cyan-400/30 text-cyan-400 hover:text-white hover:border-cyan-400 
@@ -131,7 +131,7 @@ const Hero = () => {
               <Github size={24} className="sm:w-7 sm:h-7" />
             </a>
             <a
-              href="https://www.linkedin.com/in/yash-kapadiya-068b00323/"
+              href="https://www.linkedin.com/in/om-rakholiya-221243352/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 sm:p-3 rounded-full border border-purple-400/30 text-purple-400 hover:text-white hover:border-purple-400 

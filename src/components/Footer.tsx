@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="text-center">
           <div className="flex justify-center gap-6 mb-6">
             <a
-              href="https://github.com/yash49766"
+              href="https://github.com/omrakholiya3"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-all duration-300 p-2 rounded-full
@@ -21,7 +21,7 @@ const Footer = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/yash-kapadiya-068b00323/"
+              href="https://www.linkedin.com/in/om-rakholiya-221243352/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-purple-400 transition-all duration-300 p-2 rounded-full
@@ -30,7 +30,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:yashkapadiya191@gmail.com"
+              href="mailto:omrakholiya3126@gmail.com"
               className="text-gray-400 hover:text-pink-400 transition-all duration-300 p-2 rounded-full
                 hover:shadow-[0_0_15px_rgba(236,72,153,0.4)] hover:-translate-y-1"
             >
@@ -41,9 +41,9 @@ const Footer = () => {
           <p className="text-gray-400 text-sm">
             © 2024{' '}
             <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent font-semibold">
-              Yash Kapadiya
+              Om Rakholiya{' '} 
             </span>
-            . Built with React & Tailwind CSS
+              | Developed using React & Tailwind CSS
           </p>
         </div>
       </div>

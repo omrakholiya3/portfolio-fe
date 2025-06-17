@@ -58,7 +58,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://portfolio-admin-fe.onrender.com/api/contact", {
+      const response = await fetch("https://portfolio-backend-qngk.onrender.com/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -201,7 +201,7 @@ const Contact = () => {
 
               <div className="flex justify-center gap-6 mb-8">
                 <a
-                    href="https://github.com/yash49766"
+                    href="https://github.com/omrakholiya3"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-4 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-400/30 text-cyan-400 rounded-full
@@ -212,7 +212,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                    href="https://www.linkedin.com/in/yash-kapadiya-068b00323/"
+                    href="https://www.linkedin.com/in/om-rakholiya-221243352/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-4 bg-gradient-to-br from-purple-500/20 to-violet-500/20 border border-purple-400/30 text-purple-400 rounded-full
@@ -222,7 +222,7 @@ const Contact = () => {
                   <Linkedin size={32}/>
                 </a>
                 <a
-                    href="mailto:yashkapadiya191@gmail.com"
+                    href="mailto:omrakholiya3126@gmail.com"
                     className="p-4 bg-gradient-to-br from-pink-500/20 to-rose-500/20 border border-pink-400/30 text-pink-400 rounded-full
         hover:border-pink-400 hover:-translate-y-1 transition-all duration-300
         hover:shadow-[0_0_20px_rgba(236,72,153,0.5)]"
@@ -232,7 +232,7 @@ const Contact = () => {
               </div>
 
               <p className="text-gray-400 text-lg">
-                <span className="text-cyan-400">yashkapadiya191@gmail.com</span>
+                <span className="text-cyan-400">omrakholiya3126@gmail.com</span>
               </p>
             </div>
           </div>

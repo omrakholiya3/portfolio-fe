@@ -12,7 +12,7 @@ const Projects = () => {
 
   // Fetch data from API
   useEffect(() => {
-    fetch('https://portfolio-admin-fe.onrender.com/api/projects')
+    fetch('https://portfolio-backend-qngk.onrender.com/api/projects')
         .then(res => res.json())
         .then(data => setProjects(data))
         .catch(err => console.error("Failed to fetch projects:", err));
